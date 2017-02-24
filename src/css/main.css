@@ -1,0 +1,560 @@
+/*导航高度*/
+body {
+    background-color: #F5F5F5;
+
+}
+
+.navbar {
+    min-height: 70px;
+    border-radius: 0;
+    margin-top: 0;
+
+}
+
+.container {
+
+    margin-top: 10px;
+
+}
+
+.container .logo img {
+    width: 40px;
+    height: 40px;
+
+}
+
+.navbar-brand {
+    font-size: 26px;
+
+}
+
+.navbar-nav .lst {
+    margin-left: 30px;
+}
+
+/*搜索框样式*/
+.container-fluid .lst {
+    margin-left: 20px;
+}
+
+.searchBox .form-control {
+    border-radius: 40px;
+    color: #6a6f77;
+    margin-left: 160px
+}
+
+/*输入框位置*/
+
+/*登录位置*/
+/*二导航*/
+#g_nav2 {
+
+    background-color: #c50905;
+    height: 37px;
+    width: 100%;
+    line-height: 36px;
+    clear: both;
+    margin-top: -20px;
+}
+
+#g_nav2 ul {
+    margin: 0;
+    padding: 0;
+}
+
+#g_nav2 .f-pr {
+    margin-left: 500px;
+}
+
+#g_nav2 ul li {
+    list-style: none;
+    float: left;
+    margin-left: 50px;
+}
+
+#g_nav2 ul li a {
+
+    color: white;
+    text-align: center;
+
+}
+
+#g_nav2 ul li a:hover {
+
+    display: inline-block;
+    background-color: #7f1308;
+    text-decoration: none;
+    border-radius: 20px;
+    width: 150%;
+}
+
+/*轮播图片*/
+#carousel-example-generic {
+    margin-top: 0px;
+}
+
+.carousel {
+    height: 336px;
+
+}
+
+.carousel .item {
+    height: 336px;
+    width: 100%;
+}
+
+.item1 {
+    background-color: #E4CCB4;
+}
+
+.item2 {
+    background-color: #FCFCF4;
+}
+
+.item3 {
+    background-color: #FF4C55;
+}
+
+.item4 {
+    background-color: #050608;
+}
+
+.item5 {
+    background-color: #3F47A9;
+}
+
+.img-responsive center-block {
+    margin-right: 50px;
+}
+
+#body_wrap {
+    position: relative;
+
+    margin: 0 auto;
+    width: 1082px;
+    height: 1700px;;
+    background-color: white;
+    color: black;
+}
+
+/*左边布局*/
+#body-left {
+    margin-left: auto;
+    margin-right: auto;
+    width: 74%;
+    height: 1200px;
+
+    float: left;
+
+}
+
+#body-left .box {
+    width: 780px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+
+}
+
+#body-left .recomd {
+    width: 780px;
+    height: 524px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+}
+
+.popu-rec, .new-mus, .list-mus {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.tab-list {
+
+    margin-left: 40px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.tab-list .s-fc {
+    padding-left: 15px;
+    color: black;
+}
+
+.tab-list a:hover, .tab-list a:visited {
+    text-decoration: none;
+}
+
+.more {
+    float: right;
+    font-size: 12px;
+    margin-right: 40px;
+    margin-top: 13px;
+}
+
+/*歌单列表分类*/
+#body-left .recomd .op {
+    margin: 0px auto;
+    height: 500px;
+    clear: both;
+    width: 100%;
+    position: relative;
+
+}
+
+.song-list {
+    list-style-type: none;
+    padding: 0;
+    width: 780px;
+    border: 1px solid #f8ffff;
+    position: absolute;
+    left: 50%;
+    margin-left: -390px;
+
+}
+
+.song-list .comment {
+    position: relative;
+    display: inline-block;
+}
+
+.song-list li {
+    float: left;
+    margin-left: 0px;
+    padding-bottom: 40px;
+    width: 194px;
+    height: 240px;
+    padding: 5px;
+
+    text-align: center;
+}
+
+.bottom {
+    width: 140px;
+    height: 27px;
+    line-height: 27px;
+    background-color: rgba(75, 75, 75, 0.3);
+    color: white;
+
+    position: absolute;
+    top: 113px;
+}
+
+.icon-headset {
+    margin-left: 10px;
+}
+
+.icon-headset img {
+    width: 14px;
+    height: 14px;
+    opacity: 0.5;
+}
+
+.playLogo {
+    float: right;
+    margin-right: 10px;
+}
+
+.playLogo img {
+    opacity: 0.7;
+}
+
+.dec {
+    margin-top: 10px;
+}
+
+.nb {
+    margin-left: 3px;
+}
+
+.ads {
+    width: 100%;
+    height: 85px;
+    background-color: lightblue;
+}
+
+.ads img {
+    width: 100%;
+    height: 85px;
+}
+
+/*新碟上映*/
+.new-mus {
+}
+
+/*x新碟展示*/
+.list-display {
+    width: 100%;
+    height: 207px;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgba(138, 138, 138, 0.39);
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.list-display .ul-wrap {
+    width: 700px;
+    margin: 0 auto;
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+
+.new-cd {
+    border: 1px solid brown;
+    clear: both;
+
+}
+
+.list-display ul {
+    position: absolute;
+    left: -1400px;
+    margin: 0px;
+    padding: 0px;
+
+
+    height: 200px;
+    text-align: center;
+}
+
+.list-display ul li {
+    float: left;
+    list-style-type: none;
+    width: 140px;
+    height: 167px;
+    text-align: center;
+}
+
+.cd-list {
+    display: inline-block;
+}
+
+.cd-list img {
+    width: 127px;
+    height: 120px;
+}
+
+/*前后滑动按钮*/
+.prve-d {
+    float: left;
+
+
+}
+
+.next-d {
+
+    float: right;
+}
+
+.mus-rank {
+    /*三个排行榜*/
+}
+
+.rank-item {
+    display: table;
+    width: 100%;
+    height: 540px;
+    border: 1px solid #c3c3c3
+
+}
+
+.rank-item .top {
+    position: relative;
+    width: 100%;
+    height: 140px;
+    background-color: rgb(244, 244, 244);
+
+}
+
+.rank-item .bottom99 {
+    background-color: rgb(232, 232, 232);
+    margin-top: 0;
+    height: 36px;
+    line-height: 36px;
+}
+
+.bottom99 .get-more {
+    float: right;
+    margin-right: 20px;
+    font-size: 13px;
+    color: #111;
+}
+
+/*榜单*/
+.cloud-up-rank {
+    display: table-cell;
+    width: 33.3%;
+
+    border-right: 1px solid #c3c3c3;
+}
+
+.cloud-up-rank .item-list {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+
+}
+
+.mus-rank ol {
+    width: 100%;
+    height: auto;
+
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+
+}
+
+.mus-rank ol li {
+    height: 36px;
+    list-style-type: none;
+
+    width: 100%;
+    line-height: 36px;
+}
+
+.mus-rank ol li .song-name {
+    padding-left: 20px;
+    color: #111;
+    font-size: 12px;
+}
+
+.mus-rank ol li .num {
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #666;
+}
+
+.mus-rank ol li .top3 {
+    color: #bd0000;
+}
+
+/*新歌榜*/
+
+.cloud-new-rank {
+    display: table-cell;
+
+    width: 33.3%;
+    border-right: 1px solid #c3c3c3;
+}
+
+/*原创*/
+.orinigal-rank {
+    display: table-cell;
+
+    width: 33.3%;
+
+}
+
+/**********右边布局样式**************/
+#body-right {
+
+    width: 26%;
+    height: 100%;
+    text-align: center;
+    float: left;
+    border: 1px solid #ddecdd;
+    border-bottom: none;
+}
+
+.Server {
+    border-bottom: 1px solid silver;
+}
+
+.logo-in {
+    height: 140px;
+    border-bottom: 2px solid #cacaca;
+    background-color: rgb(229, 229, 229);
+}
+
+.logo-in p {
+    padding: 20px;
+    line-height: 24px;
+    color: #666;
+    font-size: 12px;
+    margin-bottom: -10px;
+
+}
+
+.button1 {
+    background-color: #b90000;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    width: 100px;
+    padding: 10px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.button1:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.singer-list {
+    width: 86%;
+
+    height: 700px;
+    margin: 0 auto;
+
+}
+
+.singer-list .top {
+width: 100%;
+    height: 50px;
+    text-align: center;
+
+    border-bottom: 1px solid rgba(198, 198, 198, 0.95);
+margin-bottom: 25px;
+}
+
+.singer-list .singer-name {
+    width: 100%;
+    height: 64px;
+    background-color: rgb(250, 250, 250);
+    margin-bottom: 15px;
+    border: 1px solid rgba(228, 228, 228, 0.83);
+    text-align: left;
+}
+
+.singer-list .button2 {
+    width: 100%;
+    height: 36px;
+
+    opacity: 0.8;
+    color: #111;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/**********************底部**********************************/
+#body-bottom{
+    width: 100%;
+    height: 125px;
+    border: 1px solid #d1d0d8;
+    background-color:rgb(249,249,249);
+}
+#body-bottom .foot-wrap{
+
+    width: 1080px;
+    margin: 0 auto;
+   margin-top: 20px;
+    height: 100px;
+
+}
+#body-bottom .foot1,.foot2 , .foot3{
+
+    height:  80%;
+   display: table-cell;
+    width: 33.333%;
+    font-size: 12px;
+    color: #666;
+}

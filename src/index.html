@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewporit" content="width=device-width,inital-scale=1">
+    <title>网易云音乐</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
+
+
+</head>
+<body>
+
+<!--</nav>-->
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand logo" href="#">网易云音乐</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav ">
+                <li class="active"><a href="#">发现音乐</a></li>
+                <li><a href="#">我的音乐</a></li>
+                <li><a href="#">朋友</a></li>
+                <li><a href="#">商城</a></li>
+                <li><a href="#">音乐人</a></li>
+                <li class="lst"><a href="#"><strong>下载客户端</strong></a></li>
+            </ul>
+            <div class="searchBox">
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="sear" class="form-control" placeholder="单曲/歌手/专辑/歌单/MV/用户">
+                    </div>
+
+                </form>
+            </div>
+            <ul class="nav navbar-nav ">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">登录<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">手机号登录</a></li>
+                        <li><a href="#">微信号登录</a></li>
+                        <li><a href="#">QQ登录</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<div id="g_nav2" class="m-subnav j-tflag">
+    <div class="wrap f-pr">
+        <ul>
+            <li><a href="#">推荐</a></li>
+            <li><a href="#" class="z-slt">排行榜</a></li>
+            <li><a href="#" class="">歌单</a></li>
+            <li><a href="#" class="">主播电台</a></li>
+            <li><a href="#" class="">歌手</a></li>
+            <li><a href="# " class="">新碟上架</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+
+    <div class="carousel-inner" role="listbox">
+        <div class="item active item1">
+            <img src="../img/1 (1).jpg" class="img-responsive center-block"/>
+            <div class="carousel-caption">
+
+            </div>
+        </div>
+        <div class="item item2">
+            <img src="../img/1 (2).jpg" class="img-responsive center-block"/>
+            <div class="carousel-caption">
+            </div>
+        </div>
+        <div class="item item3">
+            <img src="../img/1 (3).jpg" class="img-responsive center-block"/>
+            <div class="carousel-caption">
+            </div>
+        </div>
+        <div class="item item4">
+            <img src="../img/1 (6).jpg" class="img-responsive center-block"/>
+            <div class="carousel-caption">
+            </div>
+        </div>
+        <div class="item item5">
+            <img src="../img/1 (7).jpg" class="img-responsive center-block"/>
+            <div class="carousel-caption">
+            </div>
+        </div>
+    </div>
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+
+<div id="body_wrap">
+    <div id="body-left">
+        <div class="box recomd">
+            <div class="hd">
+                <a href="#" class="popu-rec">热门推荐</a>
+
+                <div class="tab-list">
+                    <a href="#" class="s-fc">华语&nbsp&nbsp&nbsp&nbsp|</a>
+
+                    <a href="#" class="s-fc">流行&nbsp&nbsp&nbsp&nbsp|</a>
+
+                    <a href="#" class="s-fc">摇滚&nbsp&nbsp&nbsp&nbsp|</a>
+
+                    <a href="#" class="s-fc">民谣&nbsp&nbsp&nbsp&nbsp|</a>
+
+                    <a href="#" class="s-fc">电子</a>
+                </div>
+
+                <span class="more"><a href="#" style="color: black">更多</a></span>
+                <hr style="width: 100%; height:2px;border:none;border-top:2px solid #c50905; margin-top: 4px"/>
+            </div>
+
+
+            <div class="op">
+                <ul class="song-list">
+                    <li>
+                        <div class="comment">
+
+                            <img src="../img/新建文件夹/1.jpg" height="140" width="140"/><a title="致开学：我的年少有你 ，你的青春有我" href="#"></a>
+                            <div class="bottom">
+                                <a class="icon-play f-fr" title="播放" href="#"></a>
+                                <span class="icon-headset"> <img src="../img/erji.png" height="300" width="312"/></span>
+                                <span class="nb">144万</span>
+                                <a href="#" class="playLogo">
+                                    <img src="../img/bofang.png" height="16" width="16"/></a>
+                            </div>
+
+                        </div>
+                        <div style="width: 140px;text-align: left;display: inline-block">
+                            <p class="dec">
+                                <a title="致开学：我的年少有你 ，你的青春有我" style="color: black;display:inline" href="#">
+                                    致开学：我的年少有你 ，你的青春有我
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="comment">
+
+                            <img src="../img/新建文件夹/7.jpg" height="140" width="140"/><a title="热情、狂野、浪漫、哀伤的弗拉门戈吉他" href="#"></a>
+                            <div class="bottom">
+                                <a class="icon-play f-fr" title="播放" href="#"></a>
+                                <span class="icon-headset"> <img src="../img/erji.png" height="300" width="312"/></span>
+                                <span class="nb">144万</span>
+                                <a href="#" class="playLogo">
+                                    <img src="../img/bofang.png" height="16" width="16"/></a>
+                            </div>
+
+                        </div>
+                        <div style="width: 140px;text-align: left;display: inline-block">
+                            <p class="dec">
+                                <a title="热情、狂野、浪漫、哀伤的弗拉门戈吉他" style="color: black;display:inline" href="#">
+                                    热情、狂野、浪漫、哀伤的弗拉门戈吉他
+                                </a>
+                            </p>
+                        </div>
+
+
+                    </li>
+                    <li>
+                        <div class="comment">
+
+                            <img src="../img/新建文件夹/2.jpg" height="140" width="140"/><a title="华语女声‖那些入耳入心的代表曲" href="#"></a>
+                            <div class="bottom">
+                                <a class="icon-play f-fr" title="播放" href="#"></a>
+                                <span class="icon-headset"> <img src="../img/erji.png" height="300" width="312"/></span>
+                                <span class="nb">144万</span>
+                                <a href="#" class="playLogo">
+                                    <img src="../img/bofang.png" height="16" width="16"/></a>
+                            </div>
+
+                        </div>
+                        <div style="width: 140px;text-align: left;display: inline-block">
+                            <p class="dec">
+                                <a title="华语女声‖那些入耳入心的代表曲" style="color: black;display:inline" href="#">
+                                    华语女声‖那些入耳入心的代表曲
+                                </a>
+                            </p>
+                        </div>
+
+
+                    </li>
+                    <li>
+                        <div class="comment">
+
+                            <img src="../img/新建文件夹/3.jpg" height="140" width="140"/><a title="二十年经典格莱美-1" href="#"></a>
+                            <div class="bottom">
+                                <a class="icon-play f-fr" title="播放" href="#"></a>
+                                <span class="icon-headset"> <img src="../img/erji.png" height="300" width="312"/></span>
+                                <span class="nb">144万</span>
+                                <a href="#" class="playLogo">
+                                    <img src="../img/bofang.png" height="16" width="16"/></a>
+                            </div>
+
+                        </div>
+                        <div style="width: 140px;text-align: left;display: inline-block">
+                            <p class="dec">
+                                <a title="二十年经典格莱美-1" style="color: black;display:inline" href="#">
+                                    二十年经典格莱美-1
+                                </a>
+                            </p>
+                        </div>
+
+
+                    </li>
+                    <li>
+                        <div class="comment">
+
+                            <img src="../img/新建文件夹/4.jpg" height="140" width="140"/><a title="【粤语】拾遗角落里的一缕光" href="#"></a>
+                            <div class="bottom">
+                                <a class="icon-play f-fr" title="播放" href="#"></a>
+                                <span class="icon-headset"> <img src="../img/erji.png" height="300" width="312"/></span>
+                                <span class="nb">144万</span>
+                                <a href="#" class="playLogo">
+                                    <img src="../img/bofang.png" height="16" width="16"/></a>
+                            </div>
+
+                        </div>
+                        <div style="width: 140px;text-align: left;display: inline-block">
+                            <p class="dec">
+                                <a title="【粤语】拾遗角落里的一缕光" style="color: black;display:inline" href="#">
+                                    【粤语】拾遗角落里的一缕光
+                                </a>
+                            </p>
+                        </div>
+
+
+                    </li>
+                    <li>
+                        <div class="comment"><img src="../img/新建文件夹/5.jpg" height="140" width="140"/>
+
+                            <a title="陪你长大的奇葩们" href="#"></a>
+                            <div class="bottom">
+                                <a class="icon-play f-fr" title="播放" href="#"></a>
+                                <span class="icon-headset"> <img src="../img/erji.png" height="300" width="312"/></span>
+                                <span class="nb">144万</span>
+                                <a href="#" class="playLogo">
+                                    <img src="../img/bofang.png" height="16" width="16"/></a>
+                            </div>
+
+                        </div>
+                        <div style="width: 140px;text-align: left;display: inline-block">
+                            <p class="dec">
+                                <a title="我想你已经习惯丶一个人生活" style="color: black;display:inline" href="#">
+                                    陪你长大的奇葩们
+                                </a>
+                            </p>
+                        </div>
+
+
+                    </li>
+                    <li>
+                        <div class="comment">
+
+                            <img src="../img/新建文件夹/7.jpg" height="140" width="140"/><a title="告一段落 - 陈一发儿 | 原创" href="#"></a>
+                            <div class="bottom">
+                                <a class="icon-play f-fr" title="播放" href="#"></a>
+                                <span class="icon-headset"> <img src="../img/erji.png" height="300" width="312"/></span>
+                                <span class="nb">144万</span>
+                                <a href="#" class="playLogo">
+                                    <img src="../img/bofang.png" height="16" width="16"/></a>
+                            </div>
+
+                        </div>
+                        <div style="width: 140px;text-align: left;display: inline-block">
+                            <p class="dec">
+                                <a title="告一段落 - 陈一发儿 | 原创" style="color: black;display:inline" href="#">
+                                    告一段落 - 陈一发儿 | 原创
+                                </a>
+                            </p>
+                        </div>
+
+
+                    </li>
+                    <li>
+                        <div class="comment">
+
+                            <img src="../img/新建文件夹/8.jpg" height="140" width="140"/><a title="我想你已经习惯丶一个人生活" href="#"></a>
+                            <div class="bottom">
+                                <a class="icon-play f-fr" title="播放" href="#"></a>
+                                <span class="icon-headset"> <img src="../img/erji.png" height="300" width="312"/></span>
+                                <span class="nb">144万</span>
+                                <a href="#" class="playLogo">
+                                    <img src="../img/bofang.png" height="16" width="16"/></a>
+                            </div>
+
+                        </div>
+                        <div style="width: 140px;text-align: left;display: inline-block">
+                            <p class="dec">
+                                <a title="我想你已经习惯丶一个人生活" style="color: black;display:inline" href="#">
+                                    我想你已经习惯丶一个人生活
+                                </a>
+                            </p>
+                        </div>
+
+
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+        <div class="ads box">
+            <a href="#"></a>
+            <img src="../img/ad.jpg" height="75" width="689"/></div>
+        <div class="box new-rec">
+            <div><a href="#" class="new-mus">新碟上映</a>
+                <span class="more"><a href="#" style="color: black">更多</a></span>
+                <hr style=" height:2px;border:none;border-top:2px solid #c50905; margin-top: 4px"/>
+            </div>
+            <div class="list-display">
+                <div class="prve-d" style="width: 30px;height: 100%;float: left;position: relative">
+                    <span
+                        style="width: 30px;height: 20px;position: absolute;top: 50%;margin-top: -12px;text-align: center;left: 0;font-size: 20px">
+                  <img src="../img/pre.png" height="24" width="20"/></span>
+                </div>
+
+                <div class="next-d" style="width: 30px;height: 100%;float: right;position: relative">
+                    <span
+                        style="width: 30px;height: 20px;position: absolute;top: 50%;margin-top: -12px;text-align: center;left: 0;font-size: 20px">
+
+                   <img src="../img/next.png" height="24" width="20"/></span>
+                </div>
+
+                <div class="ul-wrap">
+                    <ul>
+
+                        <li>
+                            <div class="test " style="width: 140px;height: 200px;margin-top: 20%;">
+
+                                <div style="box-shadow:  0px 5px 10px  #b4b4b4"><img src="../img/lunbo1.jpg"
+                                                                                     height="120" width="120"/></div>
+
+                                <div
+                                    style="text-align: left;display: inline-block;width: 120px;height: auto;margin-top: 10px">
+                                    <p><a href="#" style="color: #444">E能量</a> <br><a href="#"
+                                                                                      style="color: #444">群星</a></p>
+
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="test " style="width: 140px;height: 200px;margin-top: 20%;">
+
+                                <div style="box-shadow:  0px 5px 10px  #b4b4b4"><img src="../img/lunbo1.jpg"
+                                                                                     height="120" width="120"/></div>
+
+                                <div
+                                    style="text-align: left;display: inline-block;width: 120px;height: auto;margin-top: 10px">
+                                    <p><a href="#" style="color: #444">Chained to the Rhythm </a> <br><a href="#"
+                                                                                      style="color: #444">Katy Perry</a></p>
+
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="test " style="width: 140px;height: 200px;margin-top: 20%;">
+
+                                <div style="box-shadow:  0px 5px 10px  #b4b4b4"><img src="../img/lunbo1.jpg"
+                                                                                     height="120" width="120"/></div>
+
+                                <div
+                                    style="text-align: left;display: inline-block;width: 120px;height: auto;margin-top: 10px">
+                                    <p><a href="#" style="color: #444">RADWIMPS</a> <br><a href="#"
+                                                                                      style="color: #444">君の名は。 English edition</a></p>
+
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="test " style="width: 140px;height: 200px;margin-top: 20%;">
+
+                                <div style="box-shadow:  0px 5px 10px  #b4b4b4"><img src="../img/lunbo1.jpg"
+                                                                                     height="120" width="120"/></div>
+
+                                <div
+                                    style="text-align: left;display: inline-block;width: 120px;height: auto;margin-top: 10px">
+                                    <p><a href="#" style="color: #444">Aanel</a> <br><a href="#"
+                                                                                      style="color: #444">Shape of You (Acoustic)</a></p>
+
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="test " style="width: 140px;height: 200px;margin-top: 20%;">
+
+                                <div style="box-shadow:  0px 5px 10px  #b4b4b4"><img src="../img/lunbo1.jpg"
+                                                                                     height="120" width="120"/></div>
+
+                                <div
+                                    style="text-align: left;display: inline-block;width: 120px;height: auto;margin-top: 10px">
+                                    <p><a href="#" style="color: #444">五十度黑</a> <br><a href="#"
+                                                                                      style="color: #444">Fifty Shades Darker (Original Motion Picture Soundtrack)</a></p>
+
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="test " style="width: 140px;height: 200px;margin-top: 20%;">
+
+                                <div style="box-shadow:  0px 5px 10px  #b4b4b4">
+                                    <img src="../img/lunbo2.png" height="120" width="120"/></div>
+
+                                <div
+                                    style="text-align: left;display: inline-block;width: 120px;height: auto;margin-top: 10px">
+                                    <p><a href="#" style="color: #444">刘德华</a> <br><a href="#"
+                                                                                      style="color: #444">天外飞仙</a></p>
+
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="test " style="width: 140px;height: 200px;margin-top: 20%;">
+
+                                <div style="box-shadow:  0px 5px 10px  #b4b4b4"><img src="../img/lunbo1.jpg"
+                                                                                     height="120" width="120"/></div>
+
+                                <div
+                                    style="text-align: left;display: inline-block;width: 120px;height: auto;margin-top: 10px">
+                                    <p><a href="#" style="color: #444">javascript</a> <br><a href="#"
+                                                                                      style="color: #444">闭包</a></p>
+
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="test " style="width: 140px;height: 200px;margin-top: 20%;">
+
+                                <div style="box-shadow:  0px 5px 10px  #b4b4b4"><img src="../img/lunbo1.jpg"
+                                                                                     height="120" width="120"/></div>
+
+                                <div
+                                    style="text-align: left;display: inline-block;width: 120px;height: auto;margin-top: 10px">
+                                    <p><a href="#" style="color: #444">周杰伦</a> <br><a href="#"
+                                                                                      style="color: #444">稻香</a></p>
+
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="test " style="width: 140px;height: 200px;margin-top: 20%;">
+
+                                <div style="box-shadow:  0px 5px 10px  #b4b4b4"><img src="../img/lunbo1.jpg"
+                                                                                     height="120" width="120"/></div>
+
+                                <div
+                                    style="text-align: left;display: inline-block;width: 120px;height: auto;margin-top: 10px">
+                                    <p><a href="#" style="color: #444">小虎队</a> <br><a href="#"
+                                                                                      style="color: #444">嘻唰唰</a></p>
+
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="test " style="width: 140px;height: 200px;margin-top: 20%;">
+
+                                <div style="box-shadow:  0px 5px 10px  #b4b4b4"><img src="../img/lunbo1.jpg"
+                                                                                     height="120" width="120"/></div>
+
+                                <div
+                                    style="text-align: left;display: inline-block;width: 120px;height: auto;margin-top: 10px">
+                                    <p><a href="#" style="color: #444">万万没想到</a> <br><a href="#"
+                                                                                      style="color: #444">大王叫我来巡山</a></p>
+
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div style="width: 100%;height: 40px;">
+
+
+            </div>
+        </div>
+
+        <div class="box mus-rank">
+            <a href="#" class="list-mus">榜单</a>
+            <span class="more"><a href="#" style="color: black">更多</a></span>
+            <hr style=" height:2px;border:none;border-top:2px solid #c50905; margin-top: 4px"/>
+
+            <div class="rank-item">
+
+                <div class="cloud-up-rank">
+                    <div class="top">
+                        <div style="position: absolute;top: 50%;margin-top: -50px;margin-left: 20px"><img
+                            src="../img/biaoshengbang.jpg"
+                            height="100" width="100"/></div>
+                        <div style="float: right;margin-top: 5px;margin-right: 7px">
+                            <a href="#"><h2 style="font-size: 16px;color:#444;font-weight: bold">云音乐飙升榜</h2></a>
+
+                            <a href="#" class="playLogo" style="float: left;margin-left: 6px;margin-top: 2px">
+                                <img src="../img/bofang.png" height="22" width="24"/></a>
+                            <a href="#" class="playLogo" style="float: left;">
+                                <img src="../img/shochang.png" height="25" width="25"/></a>
+                        </div>
+                    </div>
+                    <div class="item-list">
+                        <ol>
+                            <li>
+                                <span class="num top3">1</span><a href="#" class="song-name">一场游戏一场梦</a>
+                            </li>
+                            <li>
+                                <span class="num top3">2</span><a href="#" class="song-name">我所谓的爱</a>
+                            </li>
+                            <li>
+                                <span class="num top3">3</span><a href="#" class="song-name">阿婆说</a>
+                            </li>
+                            <li>
+                                <span class="num">4</span><a href="#" class="song-name">Cold</a>
+                            </li>
+                            <li>
+                                <span class="num">5</span><a href="#" class="song-name">别杀我</a>
+                            </li>
+
+                            <li>
+                                <span class="num">6</span><a href="#" class="song-name">玫瑰</a>
+                            </li>
+                            <li>
+                                <span class="num">7</span><a href="#" class="song-name">总角之宴</a>
+                            </li>
+                            <li>
+                                <span class="num">8</span><a href="#" class="song-name">高山流水</a>
+                            </li>
+                            <li>
+                                <span class="num">9</span><a href="#" class="song-name">刚好遇见你</a>
+                            </li>
+                            <li>
+                                <span class="num">10</span><a href="#" class="song-name"
+                                                              style="padding-left: 13px">以前是因为不懂事</a>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="bottom99">
+                        <a href="#" class="get-more">查看全部></a>
+                    </div>
+                </div>
+
+                <div class="cloud-new-rank">
+                    <div class="top">
+                        <div style="position: absolute;top: 50%;margin-top: -50px;margin-left: 20px"><img
+                            src="../img/xingge.jpg" height="100" width="100"/>
+                        </div>
+                        <div style="float: right;margin-top: 5px;margin-right: 7px">
+                            <a href="#"><h2 style="font-size: 16px;color:#444;font-weight: bold">云音乐新歌榜</h2></a>
+
+                            <a href="#" class="playLogo" style="float: left;margin-left: 6px;margin-top: 2px">
+                                <img src="../img/bofang.png" height="22" width="24"/></a>
+                            <a href="#" class="playLogo" style="float: left;">
+                                <img src="../img/shochang.png" height="25" width="25"/></a>
+                        </div>
+                    </div>
+                    <div class="item-list">
+                        <ol>
+                            <li>
+                                <span class="num top3">1</span><a href="#" class="song-name">妈妈的话</a>
+                            </li>
+                            <li>
+                                <span class="num top3">2</span><a href="#" class="song-name">杀死那朵花</a>
+                            </li>
+                            <li>
+                                <span class="num top3">3</span><a href="#" class="song-name">当爱已成往事</a>
+                            </li>
+                            <li>
+                                <span class="num">4</span><a href="#" class="song-name">暗香</a>
+                            </li>
+                            <li>
+                                <span class="num">5</span><a href="#" class="song-name">妹妹坐船头</a>
+                            </li>
+
+                            <li>
+                                <span class="num">6</span><a href="#" class="song-name">helloe world</a>
+                            </li>
+                            <li>
+                                <span class="num">7</span><a href="#" class="song-name">你可焦点网</a>
+                            </li>
+                            <li>
+                                <span class="num">8</span><a href="#" class="song-name">天外飞仙</a>
+                            </li>
+                            <li>
+                                <span class="num">9</span><a href="#" class="song-name">笨小孩</a>
+                            </li>
+                            <li>
+                                <span class="num">10</span><a href="#" class="song-name"
+                                                              style="padding-left: 13px">桃花盛开地方</a>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="bottom99">
+                        <a href="#" class="get-more">查看全部></a>
+                    </div>
+                </div>
+                <div class="orinigal-rank">
+                    <div class="top">
+                        <div style="position: absolute;top: 50%;margin-top: -50px;margin-left: 20px">
+
+                            <img src="../img/yuanchang.jpg" height="100" width="100"/></div>
+                        <div style="float: right;margin-top: 5px;margin-right: 7px">
+                            <a href="#"><h2 style="font-size: 16px;color:#444;font-weight: bold">网易原创榜</h2></a>
+
+                            <a href="#" class="playLogo" style="float: left;margin-left: 6px;margin-top: 2px">
+                                <img src="../img/bofang.png" height="22" width="24"/></a>
+                            <a href="#" class="playLogo" style="float: left;">
+                                <img src="../img/shochang.png" height="25" width="25"/></a>
+                        </div>
+                    </div>
+                    <div class="item-list">
+                        <ol>
+                            <li>
+                                <span class="num top3">1</span><a href="#" class="song-name">索性放弃(再见阿郎)</a>
+                            </li>
+                            <li>
+                                <span class="num top3">2</span><a href="#" class="song-name">不知归期的人</a>
+                            </li>
+                            <li>
+                                <span class="num top3">3</span><a href="#" class="song-name">无法长大</a>
+                            </li>
+                            <li>
+                                <span class="num ">4</span><a href="#" class="song-name">天高路远</a>
+                            </li>
+                            <li>
+                                <span class="num">5</span><a href="#" class="song-name">窒息</a>
+                            </li>
+
+                            <li>
+                                <span class="num">6</span><a href="#" class="song-name">在每天都得紧紧的</a>
+                            </li>
+                            <li>
+                                <span class="num">7</span><a href="#" class="song-name">光芒</a>
+                            </li>
+                            <li>
+                                <span class="num">8</span><a href="#" class="song-name">老司机带带我</a>
+                            </li>
+                            <li>
+                                <span class="num">9</span><a href="#" class="song-name">上海滩</a>
+                            </li>
+                            <li>
+                                <span class="num">10</span><a href="#" class="song-name"
+                                                              style="padding-left: 13px">诺贝尔孤单奖</a>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="bottom99">
+                        <a href="#" class="get-more">查看全部></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="body-right">
+        <div class="Server">
+            <a href="#">
+                <img src="../img/server.png" height="370" width="281"/></a>
+        </div>
+        <div class="logo-in">
+            <div style="text-align: left"><p>登录网易云音乐，可以享受无限收藏的乐趣，并且无限同步到手机</p></div>
+
+            <button class="button1">用户登录</button>
+        </div>
+
+
+        <div class="singer-list">
+            <div class="top">
+            <span style="float: left"><h3
+                style="display: inline-block;font-size: 14px;font-weight: bold">入驻歌手</h3></span>
+                <span style="font-size: 12px;float: right;margin-top: 21px;"><a href="#"
+                                                                                style="color: #555">查看更多</a> ></span>
+                <hr style="width: 100%; height:1px;border:none;display: inline-block"/>
+            </div>
+
+            <div class="singer-name">
+                <a href="#">
+                    <img src="../img/singer1.jpg" height="62" width="62" style="float: left"/>
+                    <div
+                        style="height: 100% ;width: 60%;float: right;display: inline-block;text-align: left;margin-right: 10px">
+                        <h4
+                            style="color: #555;font-weight: bold">张惠妹</h4>
+                        <p style="color: #777;font-size: 12px">
+                            台湾歌手张惠妹
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="singer-name">
+                <a href="#">
+
+                    <img src="../img/singer2.jpg" height="62" width="62"/>
+                    <div
+                        style="height: 100% ;width: 60%;float: right;display: inline-block;text-align: left;margin-right: 10px">
+                        <h4
+                            style="color: #555;font-weight: bold">尚雯婕</h4>
+                        <p style="color: #777;font-size: 12px">
+                            原创电子唱作人
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="singer-name">
+                <a href="#">
+
+                    <img src="../img/singer3.jpg" height="62" width="62"/>
+                    <div
+                        style="height: 100% ;width: 60%;float: right;display: inline-block;text-align: left;margin-right: 10px">
+                        <h4
+                            style="color: #555;font-weight: bold">羽泉组合</h4>
+                        <p style="color: #777;font-size: 12px">
+                            国内知名演唱组合 羽泉
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="singer-name">
+                <a href="#">
+
+                    <img src="../img/singer4.jpg" height="62" width="62"/>
+                    <div
+                        style="height: 100% ;width: 60%;float: right;display: inline-block;text-align: left;margin-right: 10px">
+                        <h4
+                            style="color: #555;font-weight: bold">李志</h4>
+                        <p style="color: #777;font-size: 12px">
+                            网易音乐人
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="singer-name">
+                <a href="#">
+
+                    <img src="../img/singer5.jpg" height="62" width="62"/>
+                    <div
+                        style="height: 100% ;width: 60%;float: right;display: inline-block;text-align: left;margin-right: 10px">
+                        <h4
+                            style="color: #555;font-weight: bold">马頔麻油叶</h4>
+                        <p style="color: #777;font-size: 12px">
+                            网易音乐人
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <button class="button2">申请成为网易云音乐人</button>
+        </div>
+    </div>
+</div>
+<footer id="body-bottom">
+<div class="foot-wrap">
+    <div class="foot1"><p>独立音乐人招募计划
+        <br>
+        加入我们 即将与超过亿万乐迷互动</p></div>
+    <div class="foot2">音乐专栏招募计划
+        加入我们 与同道中人交流心得 </div>
+    <div class="foot3">
+        关于网易- 客户服务- 服务条款- 网站导航 网易公司版权所有©1997-2017
+        杭州乐读科技有限公司运营：浙网文[2015]0415-135号意见反馈</div>
+</div>
+</footer>
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
